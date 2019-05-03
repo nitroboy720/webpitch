@@ -1,0 +1,47 @@
+{
+    "defaultHeadTags": [
+    "<meta charset='UTF-8'>",
+    "<title>Golf Virtuel AGMM</title>",
+    "<meta name='viewport' content='width=device-width, initial-scale=1'>",
+    "<link rel='stylesheet' href='/css/bulma.css'>"
+    ],
+    "pages":[
+        {
+            "url":"/agmm/index.html",
+            "headTags": [
+                "<title>Académie de golf Michel Martin</title>",
+                "<link rel='stylesheet' href='/css/agmm-style.css'>"
+            ],
+            "bodyFiles":[
+                "/agmm/navbar.html",
+                "/agmm/home.html"
+            ]
+        },{
+            "url":"/agmm/frappe-libre.html",
+            "headTags": [
+                "<title>Frappe Libre</title>",
+                "<link rel='stylesheet' href='/css/agmm-style.css'>"
+            ],
+            "bodyFiles":[
+                "/agmm/navbar.html",
+                "/agmm/frappe-libre.html"
+            ]
+        },{
+            "url":"/golf-virtuel/index.html",
+            "headTags": [
+                "<title>Golf Virtuel</title>"
+            ],
+            "bodyFiles":[
+                "/golf-virtuel/navbar.html"
+            ]
+        },{
+            "url":"/404.html",
+            "headTags": [
+                "<title>Not found</title>"
+            ],
+            "bodyFiles":[
+                "/404.html"
+            ]
+        }
+    ]
+}

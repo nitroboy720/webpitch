@@ -1,0 +1,8 @@
+{
+  "name": "functions",
+  "description": "builds html pages in /public from /dev",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "private": true
+}
