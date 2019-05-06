@@ -1,9 +1,10 @@
 {
-  "name": "nails",
-  "description": "builds html pages from components",
+  "name": "golf",
+  "description": "builds website",
   "scripts": {
-    "build": "node -e \"require('./builder/builder.js').build()\"",
-    "watch-scss": "node-sass --omit-source-map-url --watch scss/main.scss ../public/css/styles.css"
+    "build-html": "node -e \"require('./builder/builder.js').build()\"",
+    "build-scss": "node-sass  scss/main.scss ../public/css/styles.css",
+    "watch-scss": "npm run build-scss && node-sass --watch scss/main.scss ../public/css/styles.css"
   },
   "dependencies": {
     "bulma": "^0.7.4",
