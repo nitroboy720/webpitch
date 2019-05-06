@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset='UTF-8'>
+<title>Golf Virtuel AGMM</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='/css/styles.css'>
+<title>Frappe Libre</title>
+</head>
+<body class='has-navbar-fixed-top'>
+<nav class="navbar is-fixed-top">
+    <div class="navbar-brand">
+        <a href="/agmm" class="navbar-item">
+            <img src="/images/logo-agmm.png" alt="AGMM logo"></img>
+        </a>
+        <a class="navbar-burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+    <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="/agmm/frappe-libre">Frappe Libre</a>
+            <a class="navbar-item" href="">Frappe Supervisée</a>
+            <a class="navbar-item" href="">Cours de Groupe</a>
+            <a class="navbar-item" href="">Cours Privés</a>
+            <a class="navbar-item" href="">Cours Juniors</a>
+            <a class="navbar-item" href="">Contact</a>
+        </div>
+        <div class="navbar-end">
+            <div class="buttons navbar-item">
+                <a class="button is-dark" href="/golf-virtuel/">GOLF VIRTUEL</a>
+                <a class="button is-light" href="http://www.prosim.ca"><img src="/images/logo-prosim.png"></img></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<script>//Script for burger button fonctionality
+document.addEventListener('DOMContentLoaded', () => {
+  const navbarBurger = document.querySelector('.navbar-burger');
+      navbarBurger.addEventListener('click', () => {
+        const target = navbarBurger.dataset.target;
+        const $target = document.getElementById(target);
+        navbarBurger.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+});</script>
+
+<section id="frappe-libre" class="hero">
+    <div class="hero-body container">
+        <h1 class="title is-1">Frappe Libre</h1>
+    </div>
+    <div class="container content">
+            <ul>
+                <li>
+        POSSIBILITÉS D'INSCRIPTION
+        
+        175$: FRAPPE LIBRE ILLIMITÉ (16h/semaine de disponibilité)
+        
+        SPÉCIAL JUNIOR: 60$ ILLIMITÉ
+        </li>
+         
+        <li>
+        8 novembre au 11 avril 2019
+        
+        
+        Sans carte VIP: réservation à la pièce 24 heures d'avance, 15$/heure
+        
+         
+        
+        Avec carte V.I.P.60, vous économisez
+        
+        -25$ pour réserver 1 tapis: 1heure/semaine
+        
+        -5$ sur le tarif horaire avec droit de réservation de 7 jrs.
+        
+        + autres rabais pour tous les autres services.
+        </li>
+         
+        <li>
+        Avec carte V.I.P.250, vous économisez
+        
+        -50$ pour réserver 1 tapis: 1heure/semaine
+        
+        -10$ sur le tarif horaire avec droit de réservation de 7 jrs.
+        
+        + autres rabais pour tous les autres services.
+        </li>
+        </ul>
+        </div>
+</section>
+</body>
