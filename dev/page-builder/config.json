@@ -4,7 +4,6 @@
     "defaultHeadTags": [
     "<!DOCTYPE HTML>\n<html>\n<head>",
     "<meta charset='UTF-8'>",
-    "<title>Golf Virtuel AGMM</title>",
     "<meta name='viewport' content='width=device-width, initial-scale=1'>",
     "<link rel='stylesheet' href='/css/styles.css'>"
     ],
@@ -36,7 +35,7 @@
         },{
             "url":"/404.html",
             "headTags": [
-                "<title>Not found</title>",
+                "<title>Page not found</title>",
                 "</head>"
             ],
             "bodyComponents":[
