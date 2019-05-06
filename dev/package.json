@@ -2,7 +2,7 @@
   "name": "golf",
   "description": "builds website",
   "scripts": {
-    "build-html": "node -e \"require('./builder/builder.js').build()\"",
+    "build-pages": "node -e \"require('./page-builder/pageBuilder.js').build()\"",
     "build-scss": "node-sass  scss/main.scss ../public/css/styles.css",
     "watch-scss": "npm run build-scss && node-sass --watch scss/main.scss ../public/css/styles.css"
   },
