@@ -1,8 +1,12 @@
 {
-  "name": "functions",
-  "description": "builds html pages in /public from /dev",
+  "name": "nails",
+  "description": "builds html pages from components",
   "scripts": {
-    "build": "node build.js"
+    "build": "node -e \"require('./builder/builder.js').build()\"",
+    "watch-scss": "node-sass --omit-source-map-url --watch scss/main.scss ../public/css/styles.css"
   },
-  "private": true
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "node-sass": "^4.12.0"
+  }
 }

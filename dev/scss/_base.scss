@@ -1,0 +1,15 @@
+.navbar-burger span {
+    height: 2px;
+}
+
+.content{
+        background-color: $content-background;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+}
+
+.centered{
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
