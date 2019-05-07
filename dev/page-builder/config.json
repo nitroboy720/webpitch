@@ -17,6 +17,7 @@
             "bodyComponents":[
                 "<body id='agmm' class='has-navbar-fixed-top'>",
                 "agmm/navbar.html",
+                "agmm/home.html",
                 "agmm/frappe-libre.html",
                 "agmm/footer.html",
                 "</body>"

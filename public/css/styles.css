@@ -6934,9 +6934,14 @@ label.panel-block {
   padding: 0.5rem;
   border-radius: 0.5rem; }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -3.25rem;
+  visibility: hidden; }
+
 .centered {
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   position: relative; }
 
 #agmm footer {
@@ -6945,6 +6950,15 @@ label.panel-block {
   background-color: #4a4a4a; }
   #agmm footer a {
     color: inherit; }
+
+#home {
+  background: url("/images/background.jpg") center/cover; }
+  #home .image {
+    float: left; }
+    #home .image img {
+      border-radius: 0.5rem; }
+  #home .title {
+    color: white; }
 
 #frappe-libre {
   background: url("/images/frappe-libre.jpg") center/cover; }

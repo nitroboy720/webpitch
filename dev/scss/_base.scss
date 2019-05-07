@@ -8,9 +8,15 @@
         border-radius: 0.5rem;
 }
 
+.anchor{
+    display: block;
+    position: relative;
+    top: -$navbar-height;
+    visibility: hidden;
+}
+
 .centered{
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     position: relative;
 
 }

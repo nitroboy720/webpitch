@@ -10,7 +10,19 @@
     }
 }
 
+#home{
+    .image{
+        float: left;
+        img{
+            border-radius: 0.5rem;
+        }
+    }
+    .title{
+        color:white;
+    }
+    background: url("/images/background.jpg") center/cover;
+}
+
 #frappe-libre{
     background: url("/images/frappe-libre.jpg") center/cover;
-    
 }
