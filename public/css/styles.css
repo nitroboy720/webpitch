@@ -6944,19 +6944,19 @@ label.panel-block {
   margin: auto;
   position: relative; }
 
-#agmm footer {
-  color: white;
-  text-align: center;
-  background-color: #4a4a4a; }
-  #agmm footer a {
-    color: inherit; }
+#agmm {
+  background: url("/images/grass.jpg") repeat fixed; }
+  #agmm footer {
+    color: white;
+    text-align: center;
+    background-color: rgba(74, 74, 74, 0.75); }
+    #agmm footer a {
+      color: inherit; }
 
 #home {
   background: url("/images/background.jpg") center/cover; }
   #home .image {
     float: left; }
-    #home .image img {
-      border-radius: 0.5rem; }
   #home .title {
     color: white; }
 

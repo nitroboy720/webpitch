@@ -19,6 +19,11 @@
                 "agmm/navbar.html",
                 "agmm/home.html",
                 "agmm/frappe-libre.html",
+                "agmm/frappe-supervisee.html",
+                "agmm/cours-de-groupe.html",
+                "agmm/cours-prives.html",
+                "agmm/cours-juniors.html",
+                "agmm/contact.html",
                 "agmm/footer.html",
                 "</body>"
             ]

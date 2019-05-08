@@ -3,19 +3,17 @@
     footer {
         color: white;
         text-align: center;
-        background-color: $grey-dark;
+        background-color: rgba($grey-dark, 0.75);
         a{
             color: inherit;
         }
     }
+    background: url("/images/grass.jpg") repeat fixed;
 }
 
 #home{
     .image{
         float: left;
-        img{
-            border-radius: 0.5rem;
-        }
     }
     .title{
         color:white;

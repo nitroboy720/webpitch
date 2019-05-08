@@ -21,11 +21,11 @@
     <div id="navMenu" class="navbar-menu">
         <div class="navbar-start">
             <a class="navbar-item" href="#frappe-libre">Frappe Libre</a>
-            <a class="navbar-item" href="">Frappe Supervisée</a>
-            <a class="navbar-item" href="">Cours de Groupe</a>
-            <a class="navbar-item" href="">Cours Privés</a>
-            <a class="navbar-item" href="">Cours Juniors</a>
-            <a class="navbar-item" href="">Contact</a>
+            <a class="navbar-item" href="#frappe-supervisee">Frappe Supervisée</a>
+            <a class="navbar-item" href="#cours-de-groupe">Cours de Groupe</a>
+            <a class="navbar-item" href="#cours-prives">Cours Privés</a>
+            <a class="navbar-item" href="#cours-juniors">Cours Juniors</a>
+            <a class="navbar-item" href="#contact">Contact</a>
         </div>
         <div class="navbar-end">
             <div class="buttons navbar-item">
@@ -35,16 +35,21 @@
         </div>
     </div>
 </nav>
-<script>//Script for burger button fonctionality
+<script>
+//Script for burger button fonctionality
 document.addEventListener('DOMContentLoaded', () => {
-  const navbarBurger = document.querySelector('.navbar-burger');
-      navbarBurger.addEventListener('click', () => {
-        const target = navbarBurger.dataset.target;
-        const $target = document.getElementById(target);
+    const navbarBurger = document.querySelector('.navbar-burger');
+    const menu = document.getElementById(navbarBurger.dataset.target);
+    navbarBurger.addEventListener('click', () => {
         navbarBurger.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-      });
-});</script>
+        menu.classList.toggle('is-active');
+    });
+    menu.addEventListener("click", ()=>{
+        navbarBurger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+    });
+});
+</script>
 <section id="home" class="section hero is-fullheight-with-navbar">
     <div class="hero-body container">
         <p class="title is-1">Académie de Golf Michel Martin</p>
@@ -88,12 +93,58 @@ document.addEventListener('DOMContentLoaded', () => {
         </ul>
     </div>
 </section>
+<a id="frappe-supervisee" class="anchor"></a>
+<section id="frappe-supervisee" class="hero is-fullheight-with-navbar section">
+    <div class="hero-body container">
+        <h1 class="title is-1">Frappe Supervisée</h1>
+    </div>
+    <div class="container content">
+
+    </div>
+</section>
+<a id="cours-de-groupe" class="anchor"></a>
+<section id="cours-de-groupe" class="hero is-fullheight-with-navbar section">
+    <div class="hero-body container">
+        <h1 class="title is-1">Cours de groupes</h1>
+    </div>
+    <div class="container content">
+
+    </div>
+</section>
+<a id="cours-prives" class="anchor"></a>
+<section id="cours-prives" class="hero is-fullheight-with-navbar section">
+    <div class="hero-body container">
+        <h1 class="title is-1">Cours Privés</h1>
+    </div>
+    <div class="container content">
+
+    </div>
+</section>
+<a id="cours-juniors" class="anchor"></a>
+<section id="cours-juniors" class="hero is-fullheight-with-navbar section">
+    <div class="hero-body container">
+        <h1 class="title is-1">Cours Juniors</h1>
+    </div>
+    <div class="container content">
+
+    </div>
+</section>
+<a id="contact" class="anchor"></a>
+<section id="contact" class="hero is-fullheight-with-navbar section">
+    <div class="hero-body container">
+        <h1 class="title is-1">Contact</h1>
+    </div>
+    <div class="container content">
+
+    </div>
+</section>
 <footer class="section footer">
     <div class="container">
         <img class="image is-128x128 centered" src="/images/logo-agmm-balle.png">
         <br>
-        <p>Hiver: <a target="_blank" href="https://goo.gl/maps/iYdcBFzi6E8MCMdr8">260 Rue Dessureault, Trois-Rivières, QC G8T 9T9</a></p>
-        <p>Été: <a target="_blank" href="https://goo.gl/maps/59Ur7tdom9z3Pmjc9">841 Chemin des Pins, Trois-Rivières, QC G8W 2K1</a></p>
+            <p><b>(819) 378-0988</b></p>
+            <p>Hiver: <a target="_blank" href="https://goo.gl/maps/iYdcBFzi6E8MCMdr8">260 Rue Dessureault, Trois-Rivières, QC G8T 9T9</a></p>
+            <p>Été: <a target="_blank" href="https://goo.gl/maps/59Ur7tdom9z3Pmjc9">841 Chemin des Pins, Trois-Rivières, QC G8W 2K1</a></p>
         <br>
     </div>
 </footer>
