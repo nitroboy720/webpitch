@@ -6,6 +6,8 @@
         background-color: $content-background;
         padding: 0.5rem;
         border-radius: 0.5rem;
+        margin: auto;
+        width: fit-content;
 }
 
 .anchor{
@@ -16,7 +18,5 @@
 }
 
 .centered{
-    margin: auto;
-    position: relative;
-
+    margin: 0 auto;
 }

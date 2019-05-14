@@ -1,5 +1,7 @@
 #agmm {
-
+    .title{
+        color:rgb(240, 240, 240);
+    }
     footer {
         color: white;
         text-align: center;
@@ -14,9 +16,6 @@
 #home{
     .image{
         float: left;
-    }
-    .title{
-        color:white;
     }
     background: url("/images/bg-agmm.jpg") center/cover;
 }
@@ -35,12 +34,4 @@
 
 #cours-prives{
     background: url("/images/bg-cours-prives.jpg") center/cover;
-}
-
-#cours-juniors{
-    background: url("/images/bg-cours-juniors.jpg") center/cover;
-}
-
-#about{
-    background: url("/images/bg-about.jpg") center/cover;
 }

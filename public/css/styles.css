@@ -6930,9 +6930,11 @@ label.panel-block {
   height: 2px; }
 
 .content {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(240, 240, 240, 0.9);
   padding: 0.5rem;
-  border-radius: 0.5rem; }
+  border-radius: 0.5rem;
+  margin: auto;
+  width: fit-content; }
 
 .anchor {
   display: block;
@@ -6941,11 +6943,12 @@ label.panel-block {
   visibility: hidden; }
 
 .centered {
-  margin: auto;
-  position: relative; }
+  margin: 0 auto; }
 
 #agmm {
   background: url("/images/grass.jpg") repeat fixed; }
+  #agmm .title {
+    color: #f0f0f0; }
   #agmm footer {
     color: white;
     text-align: center;
@@ -6957,8 +6960,6 @@ label.panel-block {
   background: url("/images/bg-agmm.jpg") center/cover; }
   #home .image {
     float: left; }
-  #home .title {
-    color: white; }
 
 #frappe-libre {
   background: url("/images/bg-frappe-libre.jpg") center/cover; }
@@ -6971,9 +6972,3 @@ label.panel-block {
 
 #cours-prives {
   background: url("/images/bg-cours-prives.jpg") center/cover; }
-
-#cours-juniors {
-  background: url("/images/bg-cours-juniors.jpg") center/cover; }
-
-#about {
-  background: url("/images/bg-about.jpg") center/cover; }
