@@ -10,7 +10,7 @@
             color: inherit;
         }
     }
-    background: url("/images/grass.jpg") repeat fixed;
+    background: url("/images/bg-grass.jpg") repeat fixed;
 }
 
 #home{
@@ -20,18 +20,22 @@
     background: url("/images/bg-agmm.jpg") center/cover;
 }
 
-#frappe-libre{
+#FrappeLibre{
     background: url("/images/bg-frappe-libre.jpg") center/cover;
 }
 
-#frappe-supervisee{
+#FrappeSupervisee{
     background: url("/images/bg-frappe-supervisee.jpg") center/cover;
 }
 
-#cours-de-groupe{
+#CoursDeGroupe{
     background: url("/images/bg-cours-de-groupe.jpg") center/cover;
 }
 
-#cours-prives{
+#CoursPrives{
     background: url("/images/bg-cours-prives.jpg") center/cover;
+}
+
+#Fitting{
+    background-color: white;
 }

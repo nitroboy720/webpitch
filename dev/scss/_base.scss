@@ -1,13 +1,31 @@
+// Bulma customization
 .navbar-burger span {
     height: 2px;
 }
 
+.card{
+    width: fit-content;
+    height: fit-content;
+}
+
+// My styles
+
+.img-with-label{
+    p{
+        margin: 0 !important;
+    }
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
 .content{
-        background-color: $content-background;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        margin: auto;
-        width: fit-content;
+    background-color: $content-background;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: fit-content;
 }
 
 .anchor{
@@ -19,4 +37,8 @@
 
 .centered{
     margin: 0 auto;
+}
+
+.fit-in-viewport-with-navbar{
+    max-height: calc(100vh - #{$navbar-height});
 }

@@ -1,2 +1,7 @@
-$green: rgb(40, 199, 0);
-$content-background: rgba(240, 240, 240, 0.9);
+$yellow-transparent: rgba(255, 221, 0, 0.85);
+$grey-transparent: rgba(240, 240, 240, 0.9);
+
+
+$dimensions: 16 24 32 48 64 96 128 256;
+$content-background: $grey-transparent;
+$card-background-color: $content-background;
