@@ -6946,7 +6946,6 @@ label.panel-block {
 
 .content {
   background-color: rgba(240, 240, 240, 0.9);
-  text-align: center;
   padding: 0.5rem;
   border-radius: 0.5rem;
   width: fit-content; }
@@ -6958,7 +6957,8 @@ label.panel-block {
   visibility: hidden; }
 
 .centered {
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: fit-content; }
 
 .fit-in-viewport-with-navbar {
   max-height: calc(100vh - 3.25rem); }
