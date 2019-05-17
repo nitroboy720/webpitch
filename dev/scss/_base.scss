@@ -26,6 +26,9 @@
     border-radius: 0.5rem;
     width: fit-content;
 }
+.content.expanded{
+    width: 100%;
+}
 
 .anchor{
     display: block;
@@ -38,6 +41,7 @@
     margin: 0 auto;
     width: fit-content;
 }
+
 
 .fit-in-viewport-with-navbar{
     max-height: calc(100vh - #{$navbar-height});

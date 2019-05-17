@@ -18,10 +18,10 @@
                 "<body id='agmm' class='has-navbar-fixed-top'>",
                 "agmm/navbar.html",
                 "agmm/home.html",
-                "agmm/frappe-libre.html",
-                "agmm/frappe-supervisee.html",
+                "agmm/frappe.html",
                 "agmm/cours-de-groupe.html",
                 "agmm/cours-prives.html",
+                "agmm/clinique-approche.html",
                 "agmm/fitting.html",
                 "agmm/footer.html",
                 "</body>"

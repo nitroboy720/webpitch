@@ -20,11 +20,18 @@
     </div>
     <div id="navMenu" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item" href="#FrappeLibre">Frappe Libre</a>
-            <a class="navbar-item" href="#FrappeSupervisee">Frappe Supervisée</a>
-            <a class="navbar-item" href="#CoursDeGroupe">Cours de Groupe</a>
-            <a class="navbar-item" href="#CoursPrives">Cours Privés</a>
+            <a class="navbar-item" href="#Frappe">Frappe Libre / Supervisée</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Cours</a>
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="#CoursDeGroupe">Groupe</a>
+                    <a class="navbar-item" href="#CoursPrives">Privé</a>
+                </div>
+            </div>
+            <a class="navbar-item" href="#CliniqueApproche">Clinique Approche</a>
             <a class="navbar-item" href="#Fitting">Fitting</a>
+            <a class="navbar-item" href="#CarteVIP">Carte VIP</a>
+            <a class="navbar-item" href="#Tarifs">Tarifs</a>
             <a class="navbar-item" href="#Contact">Contact</a>
         </div>
         <div class="navbar-end">
@@ -36,19 +43,19 @@
     </div>
 </nav>
 <script>
-//Script for burger button fonctionality
-document.addEventListener('DOMContentLoaded', () => {
-    const navbarBurger = document.querySelector('.navbar-burger');
-    const menu = document.getElementById(navbarBurger.dataset.target);
-    navbarBurger.addEventListener('click', () => {
-        navbarBurger.classList.toggle('is-active');
-        menu.classList.toggle('is-active');
+    //Script for burger button fonctionality
+    document.addEventListener('DOMContentLoaded', () => {
+        const navbarBurger = document.querySelector('.navbar-burger');
+        const menu = document.getElementById(navbarBurger.dataset.target);
+        navbarBurger.addEventListener('click', () => {
+            navbarBurger.classList.toggle('is-active');
+            menu.classList.toggle('is-active');
+        });
+        menu.addEventListener("click", ()=>{
+            navbarBurger.classList.toggle('is-active');
+            menu.classList.toggle('is-active');
+        });
     });
-    menu.addEventListener("click", ()=>{
-        navbarBurger.classList.toggle('is-active');
-        menu.classList.toggle('is-active');
-    });
-});
 </script>
 <section id="home" class="section hero is-fullheight-with-navbar">
     <div class="hero-body container">
@@ -63,115 +70,44 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
     </div>
 </section>
-<a id="FrappeLibre" class="anchor"></a>
-<section id="FrappeLibre" class="hero is-fullheight-with-navbar section">
-    <div class="hero-body container">
-        <h1 class="title is-1">Frappe Libre</h1>
-    </div>
-    <div class="hero-foot container">
+<a id="Frappe" class="anchor"></a>
+<section id="Frappe" class="hero is-fullheight-with-navbar section">
+    <div class="hero-body"></div>
+    <div class="container">
         <div class="columns">
-            <div class="column">
-                <div class="content">
-                    <ul>
-                        <li>
-                            POSSIBILITÉS D'INSCRIPTION <br>
-                            175$: FRAPPE LIBRE ILLIMITÉ (16h/semaine de disponibilité)<br>
-                            SPÉCIAL JUNIOR: 60$ ILLIMITÉ<br>
-                        </li>
-                        
-                        <li>
-                            8 novembre au 11 avril 2019<br>
-                            Sans carte VIP: réservation à la pièce 24 heures d'avance, 15$/heure<br>
-                            Avec carte V.I.P.60, vous économisez<br>
-                            -25$ pour réserver 1 tapis: 1heure/semaine<br>
-                            -1$ sur le tarif horaire avec droit de réservation de 7 jrs.<br>
-                            + autres rabais pour tous les autres services.<br>
-                        </li>
-                        
-                        <li>
-                            Avec carte V.I.P.250, vous économisez<br>
-                            -50$ pour réserver 1 tapis: 1heure/semaine<br>
-                            -10$ sur le tarif horaire avec droit de réservation de 7 jrs.<br>
-                            + autres rabais pour tous les autres services.<br>
-                        </li>
-                    </ul>
+            <div class="column is-half">
+                <h1 class="title is-1 has-text-centered">Frappe Libre</h1>
+                <div class="content expanded">
+                    <p>
+                        1 heure de frappe libre par semaine: 139$<br>
+                        Frappe libre illimitée: 175$ ( juniors 60$ )<br>
+                        Tarifs Horaire: 15$/heure<br>
+                        Distance de 100 pieds<br>
+                        Économisez avec une <a href="">carte VIP</a>.
+                    </p>
+                    <p class="has-text-centered">
+                        <a href="">Horaire frappe libre</a>
+                    </p>
                 </div>
             </div>
-            <div class="column">
-                <div class="content">
-                    <ul>
-                        <li>
-                            POSSIBILITÉS D'INSCRIPTION <br>
-                            175$: FRAPPE LIBRE ILLIMITÉ (16h/semaine de disponibilité)<br>
-                            SPÉCIAL JUNIOR: 60$ ILLIMITÉ<br>
-                        </li>
-                        
-                        <li>
-                            8 novembre au 11 avril 2019<br>
-                            Sans carte VIP: réservation à la pièce 24 heures d'avance, 15$/heure<br>
-                            Avec carte V.I.P.60, vous économisez<br>
-                            -25$ pour réserver 1 tapis: 1heure/semaine<br>
-                            -1$ sur le tarif horaire avec droit de réservation de 7 jrs.<br>
-                            + autres rabais pour tous les autres services.<br>
-                        </li>
-                        
-                        <li>
-                            Avec carte V.I.P.250, vous économisez<br>
-                            -50$ pour réserver 1 tapis: 1heure/semaine<br>
-                            -10$ sur le tarif horaire avec droit de réservation de 7 jrs.<br>
-                            + autres rabais pour tous les autres services.<br>
-                        </li>
-                    </ul>
+            <div class="column is-half">
+                <h1 class="title is-1 has-text-centered">Frappe Supervisée</h1>
+                <div class="content expanded">
+                    <p>
+                        1 heure de frappe supervisée par semaine pendant 12 semaines:<br>
+                         299.00$ + taxes.<br>
+                        Distance de 100 pieds<br>
+                        Économisez avec une <a href="">carte VIP</a>.
+                    </p>
+                    <br>
+                    <p class="has-text-centered">
+                        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsV75HjZ9xnAF6Q6xXTz94aKN29rfcr_jTojN2L3y2WwM6JZXmdQOW4l9OjaCeLcIVwfk1bUGZk3HP/pubhtml?gid=0&single=true">Horaire frappe supervisée</a>
+                    </p>
                 </div>
             </div>
-            <div class="column">
-                    <div class="content">
-                        <ul>
-                            <li>
-                                POSSIBILITÉS D'INSCRIPTION <br>
-                                175$: FRAPPE LIBRE ILLIMITÉ (16h/semaine de disponibilité)<br>
-                                SPÉCIAL JUNIOR: 60$ ILLIMITÉ<br>
-                            </li>
-                            
-                            <li>
-                                8 novembre au 11 avril 2019<br>
-                                Sans carte VIP: réservation à la pièce 24 heures d'avance, 15$/heure<br>
-                                Avec carte V.I.P.60, vous économisez<br>
-                                -25$ pour réserver 1 tapis: 1heure/semaine<br>
-                                -1$ sur le tarif horaire avec droit de réservation de 7 jrs.<br>
-                                + autres rabais pour tous les autres services.<br>
-                            </li>
-                            
-                            <li>
-                                Avec carte V.I.P.250, vous économisez<br>
-                                -50$ pour réserver 1 tapis: 1heure/semaine<br>
-                                -10$ sur le tarif horaire avec droit de réservation de 7 jrs.<br>
-                                + autres rabais pour tous les autres services.<br>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
         </div>
     </div>
-</section>
-<a id="FrappeSupervisee" class="anchor"></a>
-<section id="FrappeSupervisee" class="hero is-fullheight-with-navbar section">
-    <div class="hero-body container">
-        <h1 class="title is-1">Frappe Supervisée</h1>
-    </div>
-    <div class="hero-foot container">
-        <div class="content">
-            <p class="is-size-4">
-                1 heure de frappe supervisée/semaine : 299.00$ + taxes.
-                <br>
-                Session de 12 semaines. À PARTIR DU 6 JANVIER 2019.
-                <br>
-                *Avec carte V.I.P.60, vous économisez 30$.
-                <br>
-                *Avec carte V.I.P.250, vous économisez 60$.
-            </p>
-        </div>
-    </div>
+    <div class="hero-body"></div>
 </section>
 <a id="CoursDeGroupe" class="anchor"></a>
 <section id="CoursDeGroupe" class="hero is-fullheight-with-navbar section">
@@ -179,8 +115,17 @@ document.addEventListener('DOMContentLoaded', () => {
         <h1 class="title is-1">Cours de groupes</h1>
     </div>
     <div class="hero-foot container">
-        <div class="content">
-            <p>Paranthodon was a stegosaurian dinosaur that lived in present-day South Africa between 139 and 131 million years ago, during the Early Cretaceous. Discovered in 1845, it was one of the first stegosaurians found. The only remains of the genus, a partial skull, isolated teeth, and fragments of vertebrae, were found in the Kirkwood Formation. British paleontologist Richard Owen initially identified the fragments as those of the pareiasaur Anthodon. After remaining untouched for years in the British Museum of Natural History, the partial skull was identified by South African paleontologist Robert Broom as belonging to a different genus; he named the specimen Palaeoscincus africanus. Several years later, Hungarian paleontologist Franz Nopcsa, unaware of Broom's new name, similarly concluded that it represented a new taxon, and named it Paranthodon owenii. The genus name combines the Ancient Greek para (near) with the genus name Anthodon, to represent the initial referral of the remains.</p>
+        <div class="content is-size-4">
+            <p>
+                Groupes de 5 personnes
+                <br>1 heure de cours par semaine 
+                <br>Sur une distance de 100 pieds
+                <br>5 semaines: 145$ + taxes.
+                <br>Économisez avec une <a href="">carte VIP.</a>
+            </p>
+            <p class="has-text-centered">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsV75HjZ9xnAF6Q6xXTz94aKN29rfcr_jTojN2L3y2WwM6JZXmdQOW4l9OjaCeLcIVwfk1bUGZk3HP/pubhtml?gid=0&single=true">Horaire cours de groupe</a>
+            </p>
         </div>
     </div>
 </section>
@@ -220,8 +165,17 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
                 <p class="centered">
                     Hiver comme été, cours privés disponibles sur demande et selon vos besoins. 3 leçons (2 x 45 min et 1 x 30 min): 160$</p>
-                <p class="centered"><a href="#Contact">Contact</a></p>
+                <p class="has-text-centered"><a href="#Contact">Contact</a></p>
         </div>
+    </div>
+</section>
+<a id="CoursDeGroupe" class="anchor"></a>
+<section id="CliniqueApproche" class="hero is-fullheight-with-navbar section">
+    <div class="hero-body container">
+        <h1 class="title is-1">Clinique Approche</h1>
+    </div>
+    <div class="hero-foot container">
+
     </div>
 </section>
 <a id="Fitting" class="anchor"></a>

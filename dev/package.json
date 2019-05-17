@@ -4,7 +4,7 @@
   "scripts": {
     "build-pages": "node -e \"require('./page-builder/builder.js').build()\"",
     "build-scss": "node-sass  scss/main.scss ../public/css/styles.css",
-    "watch-scss": "npm run build-scss && node-sass --watch scss/main.scss ../public/css/styles.css"
+    "scss": "npm run build-scss && node-sass --watch scss/main.scss ../public/css/styles.css"
   },
   "dependencies": {
     "bulma": "^0.7.4",
