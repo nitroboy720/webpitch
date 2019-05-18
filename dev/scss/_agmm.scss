@@ -21,6 +21,13 @@
 }
 
 #Frappe{
+    .hero-body{
+        justify-content: center;
+        padding: 0;
+    }
+    .columns{
+        flex-grow: 1;
+    }
     background: url("/images/bg-frappe.jpg") center/cover;
 }
 
@@ -32,6 +39,11 @@
     background: url("/images/bg-cours-prives.jpg") center/cover;
 }
 
-#Fitting{
-    background-color: white;
+#CliniqueApproche{
+   .content{
+        color: white;
+        background-color: transparent;
+        flex-grow: 2;
+    }
+    background: url("/images/bg-clinique-approche.jpg") center/cover;
 }

@@ -6984,6 +6984,11 @@ label.panel-block {
 
 #Frappe {
   background: url("/images/bg-frappe.jpg") center/cover; }
+  #Frappe .hero-body {
+    justify-content: center;
+    padding: 0; }
+  #Frappe .columns {
+    flex-grow: 1; }
 
 #CoursDeGroupe {
   background: url("/images/bg-cours-de-groupe.jpg") center/cover; }
@@ -6991,5 +6996,9 @@ label.panel-block {
 #CoursPrives {
   background: url("/images/bg-cours-prives.jpg") center/cover; }
 
-#Fitting {
-  background-color: white; }
+#CliniqueApproche {
+  background: url("/images/bg-clinique-approche.jpg") center/cover; }
+  #CliniqueApproche .content {
+    color: white;
+    background-color: transparent;
+    flex-grow: 2; }
