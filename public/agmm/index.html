@@ -4,12 +4,13 @@
 <meta charset='UTF-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <link rel='stylesheet' href='/css/styles.css'>
+<script defer src='/js/script.js'></script>
 <title>Académie de golf Michel Martin</title>
 </head>
 <body id='agmm' class='has-navbar-fixed-top'>
 <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
-        <a href="#" class="navbar-item">
+        <a href="/agmm" class="navbar-item">
             <img src="/images/logo-agmm.png" alt="AGMM logo"></img>
         </a>
         <a class="navbar-burger" data-target="navMenu">
@@ -20,19 +21,18 @@
     </div>
     <div id="navMenu" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item" href="#Frappe">Frappe Libre / Supervisée</a>
+            <a class="navbar-item" href="#frappe">Frappe Libre / Supervisée</a>
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">Cours</a>
                 <div class="navbar-dropdown">
-                    <a class="navbar-item" href="#CoursDeGroupe">Groupe</a>
-                    <a class="navbar-item" href="#CoursPrives">Privé</a>
+                    <a class="navbar-item" href="#cours-de-groupe">Groupe</a>
+                    <a class="navbar-item" href="#cours-prives">Privé</a>
                 </div>
             </div>
-            <a class="navbar-item" href="#CliniqueApproche">Clinique Approche</a>
-            <a class="navbar-item" href="#Fitting">Fitting</a>
-            <a class="navbar-item" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSIBf3Uq_3LKQVT0smc3JqVW9w1BNr0ghT9_Jjs_Vw86E8U3V9dHzVch4UpHB-KvSO8cQ-v_wS1kgKG/pubhtml?gid=1719629945&single=true" target="_blank">Tarifs</a>
-            <a class="navbar-item" href="#CarteVIP">Carte VIP</a>
-            <a class="navbar-item" href="#Contact">Contact</a>
+            <a class="navbar-item" href="#clinique-approche">Clinique Approche</a>
+            <a class="navbar-item" href="#carte-vip">Carte VIP</a>
+            <a class="navbar-item" href="#fitting">Fitting</a>
+            <a class="navbar-item" href="#contact">Contact</a>
         </div>
         <div class="navbar-end">
             <div class="buttons navbar-item">
@@ -42,22 +42,7 @@
         </div>
     </div>
 </nav>
-<script>
-    //Script for burger button fonctionality
-    document.addEventListener('DOMContentLoaded', () => {
-        const navbarBurger = document.querySelector('.navbar-burger');
-        const menu = document.getElementById(navbarBurger.dataset.target);
-        navbarBurger.addEventListener('click', () => {
-            navbarBurger.classList.toggle('is-active');
-            menu.classList.toggle('is-active');
-        });
-        menu.addEventListener("click", ()=>{
-            navbarBurger.classList.toggle('is-active');
-            menu.classList.toggle('is-active');
-        });
-    });
-</script>
-<section id="home" class="section hero is-fullheight-with-navbar">
+<section id="home" class="slideshow-bg section hero is-fullheight-with-navbar">
     <div class="hero-body container">
         <p class="title is-1">Académie de Golf Michel Martin</p>
     </div>
@@ -70,10 +55,10 @@
         </div>
     </div>
 </section>
-<a id="Frappe" class="anchor"></a>
-<section id="Frappe" class="hero is-fullheight-with-navbar section">
+<a id="frappe" class="anchor"></a>
+<section id="frappe" class="hero is-fullheight-with-navbar section">
     <div class="hero-body container">
-        <div class="columns">
+        <div class="columns is-size-5">
             <div class="column">
                 <h1 class="title is-1 has-text-centered">Frappe Libre</h1>
                 <div class="content expanded">
@@ -82,7 +67,7 @@
                         Frappe libre illimitée: 175$ ( juniors 60$ )<br>
                         Tarifs Horaire: 15$/heure<br>
                         Distance de 100 pieds<br>
-                        Économisez avec une <a href="">carte VIP</a>.
+                        Économisez avec une <a href="#carte-vip">carte VIP</a>.
                     </p>
                     <p class="has-text-centered">
                         <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFPH6yLwYqmLpx9ua1yu4XYJyLGTVb3ka00ykDo1gyj10TodSANPT_WFo3uJkNcnCHwYDcAUd4uG2b/pubhtml?gid=1199770214&single=true" target="_blank">Horaire frappe libre</a>
@@ -93,10 +78,10 @@
                 <h1 class="title is-1 has-text-centered">Frappe Supervisée</h1>
                 <div class="content expanded">
                     <p>
-                        1 heure de frappe supervisée par semaine pendant 12 semaines:<br>
-                         299.00$ + taxes.<br>
+                        1 heure de frappe supervisée par semaine: 299.00$<br>
+                        Frappe supervisée + frappe libre illimitée: ???.00$<br>
                         Distance de 100 pieds<br>
-                        Économisez avec une <a href="">carte VIP</a>.
+                        Économisez avec une <a href="#carte-vip">carte VIP</a>.
                     </p>
                     <br class="is-hidden-mobile">
                     <p class="has-text-centered">
@@ -107,10 +92,10 @@
         </div>
     </div>
 </section>
-<a id="CoursDeGroupe" class="anchor"></a>
-<section id="CoursDeGroupe" class="hero is-fullheight-with-navbar section">
+<a id="cours-de-groupe" class="anchor"></a>
+<section id="cours-de-groupe" class="hero is-fullheight-with-navbar section">
     <div class="hero-body container">
-        <h1 class="title is-1">Cours de groupes</h1>
+        <h1 class="title is-1">Cours de groupe</h1>
     </div>
     <div class="hero-foot container">
         <div class="content is-size-4">
@@ -119,7 +104,7 @@
                 <br>1 heure de cours par semaine 
                 <br>Sur une distance de 100 pieds
                 <br>5 semaines: 145$ + taxes.
-                <br>Économisez avec une <a href="">carte VIP.</a>
+                <br>Économisez avec une <a href="#carte-vip">carte VIP.</a>
             </p>
             <p class="has-text-centered">
                 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFPH6yLwYqmLpx9ua1yu4XYJyLGTVb3ka00ykDo1gyj10TodSANPT_WFo3uJkNcnCHwYDcAUd4uG2b/pubhtml?gid=150220725&single=true" target="_blank">Horaire cours de groupe</a>
@@ -127,8 +112,8 @@
         </div>
     </div>
 </section>
-<a id="CoursPrives" class="anchor"></a>
-<section id="CoursPrives" class="hero is-fullheight-with-navbar section">
+<a id="cours-prives" class="anchor"></a>
+<section id="cours-prives" class="hero is-fullheight-with-navbar section">
     <div class="hero-body container">
         <h1 class="title is-1">Cours Privés</h1>
     </div>
@@ -163,19 +148,19 @@
             </div>
                 <p class="centered">
                     Hiver comme été, cours privés disponibles sur demande et selon vos besoins. 3 leçons (2 x 45 min et 1 x 30 min): 160$</p>
-                <p class="has-text-centered"><a href="#Contact">Contact</a></p>
+                <p class="has-text-centered"><a href="#contact">Contact</a></p>
         </div>
     </div>
 </section>
-<a id="CliniqueApproche" class="anchor"></a>
-<section id="CliniqueApproche" class="hero is-fullheight-with-navbar section">
+<a id="clinique-approche" class="anchor"></a>
+<section id="clinique-approche" class="hero is-fullheight-with-navbar section">
     <div class="hero-body container">
         <div class="columns">
             <div class="column">
                 <h1 class="title is-1">Clinique Approche</h1>
             </div>
             <div class="column is-size-4 content">
-                <p class="is-size-3">Apprenez à faire tout les coups de 70 verges et moins :</p>
+                <p class="is-size-3">Apprenez à faire tout les coups de 70 verges et moins&nbsp;:</p>
                 <ul>
                     <li>Approche roulée</li>
                     <li>Approche de 20 à 70 verges</li>
@@ -188,16 +173,50 @@
         </div>
     </div>
 </section>
-<a id="Fitting" class="anchor"></a>
-<section id="Fitting" class="hero">
+<a id="carte-vip" class="anchor"></a>
+<section id="carte-vip" class="hero is-fullheight-with-navbar section">
+    <div class="hero-body container is-size-5">
+        <div class="columns">
+            <div class="column">
+                <div class="content expanded">
+                    <h1 class="title is-1 has-text-centered">V.I.P 60</h1>
+                    <p>
+                        Disponible au coût de 60.00$+tx, la carte vous donne droit aux avantages suivants&nbsp;:
+                        <ul>
+                            <li>30$ de rabais sur FRAPPE LIBRE (1 tapis/sem. réservé)</li>
+                            <li>30.00$ de rabais sur la FRAPPE SUPERVISÉE</li>
+                            <li>15.00$ de rabais sur les COURS DE GROUPE</li>
+                            <li>5.00$ de rabais sur tarif horaire driving</li>
+                            <li>10.00$ de rabais sur l'entreposage</li>
+                            <li><a href="/golf-virtuel">Golf virtuel</a> à 20.00$ la partie en tout temps</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content expanded">
+                    <h1 class="title is-1 has-text-centered">V.I.P 250</h1>
+                    <p>
+                        Disponible au coût de 250.00$+tx, la carte vous donne droit aux avantages suivants&nbsp;:
+                        <ul>
+                            <li>60$ de rabais sur FRAPPE LIBRE (1 tapis/sem. réservé)</li>
+                            <li>60.00$ de rabais sur la FRAPPE SUPERVISÉE</li>
+                            <li>30.00$ de rabais sur les COURS DE GROUPE</li>
+                            <li>10.00$ de rabais sur tarif horaire driving</li>
+                            <li>20.00$ de rabais sur l'entreposage</li>
+                            <li><a href="/golf-virtuel">Golf virtuel</a> à 10.00$ la partie en tout temps</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<a id="fitting" class="anchor"></a>
+<section id="fitting" class="hero">
     <img class="fit-in-viewport-with-navbar" src="/images/img-fitting.jpg" alt="bannière pour le fitting">
 </section>
-<a id="CarteVIP" class="anchor"></a>
-<section id="CarteVIP">
-    <div class="container">
-    </div>  
-</section>
-<a id="Contact" class="anchor"></a>
+<a id="contact" class="anchor"></a>
 <footer class="section footer">
     <div class="container">
         <img class="image is-128x128 centered" src="/images/logo-agmm-balle.png">

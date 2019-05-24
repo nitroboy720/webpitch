@@ -3,11 +3,6 @@
     height: 2px;
 }
 
-.card{
-    width: fit-content;
-    height: fit-content;
-}
-
 // My styles
 
 .img-with-label{
@@ -21,7 +16,7 @@
 }
 
 .content{
-    background-color: $content-background;
+    background-color: $grey-transparent;
     padding: 0.5rem;
     border-radius: 0.5rem;
     width: fit-content;
@@ -41,7 +36,6 @@
     margin: 0 auto;
     width: fit-content;
 }
-
 
 .fit-in-viewport-with-navbar{
     max-height: calc(100vh - #{$navbar-height});
