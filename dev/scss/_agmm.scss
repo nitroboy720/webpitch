@@ -10,55 +10,60 @@
             color: inherit;
         }
     }
-    background: url("/images/bg-grass.jpg") repeat fixed;
-    
-    
-    #home{
-        .image{
-            float: left;
-        }
-        background: url("/images/bg-home.jpg") center/cover;
-    }
-    
-    #frappe{
-        .hero-body{
-            justify-content: center;
-            padding: 0;
-        }
-        .columns{
-            flex-grow: 1;
-        }
-        background: url("/images/bg-frappe.jpg") center/cover;
-    }
-    
-    #cours-de-groupe{
-        background: url("/images/bg-cours-de-groupe.jpg") center/cover;
-    }
-    
-    #cours-prives{
-        background: url("/images/bg-cours-prives.jpg") center/cover;
-    }
-    
-    #clinique-approche{
-        .content{
-            color: white;
-            background-color: transparent;
-            flex-grow: 2;
-        }
-        background: url("/images/bg-clinique-approche.jpg") center/cover;
-    }
+    background: url("/images/bg-agmm.jpg") repeat fixed;  
+}
 
-    #carte-vip{
-        .title{
-            color: $grey-darker;
-        }
-        .hero-body{
-            justify-content: center;
-            padding: 0;
-        }
-        .columns{
-            flex-grow: 1;
-        }
-        background-color: $yellow-transparent;
+#agmm-home{
+    .image{
+        float: left;
     }
+    background: url("/images/bg-agmm-home.jpg") center/cover;
+}
+
+#frappe{
+    .hero-body{
+        justify-content: center;
+        padding: 0;
+    }
+    .columns{
+        flex-grow: 1;
+    }
+    background: url("/images/bg-frappe.jpg") center/cover;
+}
+
+#cours-de-groupe{
+    background: url("/images/bg-cours-de-groupe.jpg") center/cover;
+}
+
+#cours-prives{
+    background: url("/images/bg-cours-prives.jpg") center/cover;
+}
+
+#clinique-approche{
+    .content{
+        color: white;
+        background-color: transparent;
+        flex-grow: 2;
+    }
+    background: url("/images/bg-clinique-approche.jpg") center/cover;
+}
+
+#fitting{
+    img{
+         max-height: calc(100vh - #{$navbar-height});
+    }
+}
+
+#carte-vip{
+    .title{
+        color: $grey-darker;
+    }
+    .hero-body{
+        justify-content: center;
+        padding: 0;
+    }
+    .columns{
+        flex-grow: 1;
+    }
+    background-color: $yellow-transparent;
 }
