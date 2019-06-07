@@ -10,6 +10,17 @@
     ],
     "pages":[
         {
+            "url":"index.html",
+            "headTags": [
+                "<title>Golf Virtuel AGMM</title>",
+                "</head>"
+            ],
+            "bodyComponents":[
+                "<body>",
+                "index.html",
+                "</body>"
+            ]
+        },{
             "url":"agmm/index.html",
             "headTags": [
                 "<title>Académie de golf Michel Martin</title>",

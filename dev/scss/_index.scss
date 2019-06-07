@@ -1,0 +1,12 @@
+#index{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url("/images/bg-index.jpg") center/cover;
+
+    img{
+        max-width: 50vw;
+    }
+}

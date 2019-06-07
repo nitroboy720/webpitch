@@ -6967,6 +6967,15 @@ label.panel-block {
   margin: 0 auto;
   width: fit-content; }
 
+#index {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("/images/bg-index.jpg") center/cover; }
+  #index img {
+    max-width: 50vw; }
+
 #agmm {
   background: url("/images/bg-agmm.jpg") repeat fixed; }
   #agmm .title {
@@ -6979,7 +6988,7 @@ label.panel-block {
       color: inherit; }
 
 #agmm-home {
-  background: url("/images/bg-agmm-home.jpg") center/cover; }
+  background: darkgreen url("/images/bg-agmm-home.jpg") center/cover; }
   #agmm-home .image {
     float: left; }
 
