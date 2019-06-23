@@ -2,13 +2,8 @@
     .title{
         color:rgb(240, 240, 240);
     }
-    footer {
-        color: white;
-        text-align: center;
-        background-color: rgba($grey-dark, 0.75);
-        a{
-            color: inherit;
-        }
+    .content{
+        background-color: $grey-transparent;
     }
     background: url("/images/bg-agmm.jpg") repeat fixed;  
 }
@@ -66,4 +61,13 @@
         flex-grow: 1;
     }
     background-color: $yellow-transparent;
+}
+
+#agmm-footer {
+    color: white;
+    text-align: center;
+    background-color: rgba($grey-dark, 0.75);
+    a{
+        color: inherit;
+    }
 }

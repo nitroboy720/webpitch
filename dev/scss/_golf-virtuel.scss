@@ -1,0 +1,51 @@
+#golf-virtuel {
+    //dark
+    .title{
+       color: $light;
+    }
+    .content{
+        background-color: $dark-grey-transparent;
+        color: $light;
+    }
+
+
+    background: url("/images/bg-agmm.jpg") repeat fixed;  
+}
+
+#golf-virtuel-home{
+
+}
+
+#heures-ouverture{
+    .hero-body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .column{
+        margin: $gap/8;
+        justify-content: space-around;
+    }
+    @media screen and (min-width: $tablet){ 
+        .column{
+            margin: $gap/2;
+        }
+    }
+    table {
+        border: solid;
+    }
+    table, table *{ 
+        background-color: $dark !important;
+        color: $dark-invert !important;
+        text-align: center;
+        border-color: $green;
+    }
+}
+
+#golf-virtuel-footer {
+    color: white;
+    text-align: center;
+    background-color: rgba($grey-dark, 0.75);
+    a{
+        color: inherit;
+    }
+}

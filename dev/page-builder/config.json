@@ -34,7 +34,7 @@
                 "agmm/cours-de-groupe.html",
                 "agmm/cours-prives.html",
                 "agmm/clinique-approche.html",
-                "agmm/carte-vip.html",
+                "carte-vip.html",
                 "agmm/fitting.html",
                 "agmm/footer.html",
                 "</body>"
@@ -46,8 +46,11 @@
                 "</head>"
             ],
             "bodyComponents":[
-                "<body class='has-navbar-fixed-top'>",
+                "<body id='golf-virtuel' class='has-navbar-fixed-top'>",
                 "/golf-virtuel/navbar.html",
+                "/golf-virtuel/home.html",
+                "/golf-virtuel/heures-ouverture.html",
+                "/carte-vip.html",
                 "</body>"
             ]
         },{

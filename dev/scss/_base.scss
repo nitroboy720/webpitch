@@ -1,9 +1,15 @@
 // Bulma customization
+.hero{
+    justify-content: space-evenly;
+}
 .navbar-burger span {
     height: 2px;
 }
 
-// My styles
+.navbar-menu.is-dark, .navbar-menu.is-dark > div > a {
+    background-color: $dark;
+    color: $dark-invert;
+}
 
 .flex-columns{
     @extend .columns;
@@ -12,6 +18,12 @@
         flex-direction: column;
     }
 }
+
+.hero-head{
+    display: flex;
+}
+
+// My styles
 
 .img-with-label{
     p{
@@ -23,10 +35,12 @@
     text-align: center;
 }
 
+.title{
+    text-align: center;
+}
 .content{
     display: flex;
     flex-direction: column;
-    background-color: $grey-transparent;
     padding: 0.5rem;
     border-radius: 0.5rem;
     width: fit-content;
