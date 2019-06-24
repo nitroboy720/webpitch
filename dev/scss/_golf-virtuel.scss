@@ -22,30 +22,33 @@
         padding-right: 0;
     }
     .column{
-        margin: $gap/8;
         justify-content: space-around;
-    }
-    @media screen and (min-width: $tablet){ 
-        .column{
-            margin: $gap/2;
-        }
     }
     table {
         border: solid;
     }
     table, table *{ 
-        background-color: $dark !important;
-        color: $dark-invert !important;
+        background-color: $dark;
+        color: $dark-invert;
         text-align: center;
         border-color: $green;
     }
 }
 
-#golf-virtuel-footer {
+#services{
+    img{
+        margin: auto;
+    }
+}
+
+#contact-golf-virtuel {
     color: white;
-    text-align: center;
-    background-color: rgba($grey-dark, 0.75);
+    .content{
+        background-color: transparent;
+        text-align: center;
+    }
     a{
         color: inherit;
     }
+    background-color: rgba($grey-dark, 0.75);
 }

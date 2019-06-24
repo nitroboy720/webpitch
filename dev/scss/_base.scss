@@ -6,9 +6,14 @@
     height: 2px;
 }
 
-.navbar-menu.is-dark, .navbar-menu.is-dark > div > a {
+//.navbar-dropdown.is-dark, .navbar-dropdown.is-dark > a,
+ .navbar-menu.is-dark, .navbar-menu.is-dark > div > a {
     background-color: $dark;
     color: $dark-invert;
+    .has-dropdown, .has-dropdown *{
+        background-color: $dark;
+        color: $dark-invert;
+    }
 }
 
 .flex-columns{
@@ -24,6 +29,13 @@
 }
 
 // My styles
+
+.spaced{
+    margin: $gap/8 !important;
+    @media screen and (min-width: $tablet){     
+        margin: $gap/2 !important;
+    }
+}
 
 .img-with-label{
     p{

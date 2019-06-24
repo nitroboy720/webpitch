@@ -36,7 +36,7 @@
                 "agmm/clinique-approche.html",
                 "carte-vip.html",
                 "agmm/fitting.html",
-                "agmm/footer.html",
+                "agmm/contact.html",
                 "</body>"
             ]
         },{
@@ -50,7 +50,9 @@
                 "/golf-virtuel/navbar.html",
                 "/golf-virtuel/home.html",
                 "/golf-virtuel/heures-ouverture.html",
+                "/golf-virtuel/services.html",
                 "/carte-vip.html",
+                "/golf-virtuel/contact.html",
                 "</body>"
             ]
         },{

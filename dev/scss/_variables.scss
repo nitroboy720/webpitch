@@ -1,4 +1,4 @@
-$green: rgba(69,89,36,1);
+$green: rgb(60, 139, 40);
 
 $yellow-transparent: rgba(255, 221, 0, 0.9);
 $grey-transparent: rgba(240, 240, 240, 0.9);
@@ -6,5 +6,5 @@ $dark-grey-transparent: rgba(50, 50, 50, 0.9);
 
 
 //BULMA
-$link: rgb(75, 173, 50);
-$link-hover: rgb(60, 139, 40);
+$link: $green;
+$link-hover: rgb(50, 116, 34);
