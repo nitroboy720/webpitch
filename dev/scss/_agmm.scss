@@ -5,7 +5,7 @@
     .content{
         background-color: $grey-transparent;
     }
-    background: url("/images/bg-agmm.jpg") repeat fixed;  
+    background: linear-gradient(rgba(75, 75, 75, 0.8),rgba(75, 75, 75, 0.8)), url("/images/bg-agmm.jpg") repeat fixed;  
 }
 
 #agmm-home{
@@ -66,7 +66,7 @@
 #contact-agmm {
     color: white;
     text-align: center;
-    background-color: rgba($grey-dark, 0.75);
+    background: unset;
     a{
         color: inherit;
     }

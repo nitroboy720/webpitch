@@ -6948,9 +6948,9 @@ label.panel-block {
 
 .spaced {
   margin: 8px !important; }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1088px) {
     .spaced {
-      margin: 32px !important; } }
+      margin: 21.33333px !important; } }
 
 .img-with-label {
   display: flex;
@@ -6997,7 +6997,7 @@ label.panel-block {
     max-width: 50vw; }
 
 #agmm {
-  background: url("/images/bg-agmm.jpg") repeat fixed; }
+  background: linear-gradient(rgba(75, 75, 75, 0.8), rgba(75, 75, 75, 0.8)), url("/images/bg-agmm.jpg") repeat fixed; }
   #agmm .title {
     color: #f0f0f0; }
   #agmm .content {
@@ -7033,7 +7033,7 @@ label.panel-block {
   max-height: calc(100vh - 3.25rem); }
 
 #carte-vip {
-  background-color: rgba(255, 221, 0, 0.9); }
+  background-color: rgba(255, 221, 0, 0.8); }
   #carte-vip .title {
     color: #363636; }
   #carte-vip .hero-body {
@@ -7045,12 +7045,12 @@ label.panel-block {
 #contact-agmm {
   color: white;
   text-align: center;
-  background-color: rgba(74, 74, 74, 0.75); }
+  background: unset; }
   #contact-agmm a {
     color: inherit; }
 
 #golf-virtuel {
-  background: url("/images/bg-agmm.jpg") repeat fixed; }
+  background: linear-gradient(rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.8)), url("/images/bg-agmm.jpg") repeat fixed; }
   #golf-virtuel .title, #golf-virtuel .subtitle {
     color: whitesmoke; }
   #golf-virtuel .content {
@@ -7060,44 +7060,51 @@ label.panel-block {
 #golf-virtuel-home {
   background: url("/images/bg-golf-virtuel-home.jpg") center/cover; }
 
-#heures-ouverture .hero-body {
-  padding-left: 0;
-  padding-right: 0; }
+#heures-ouverture {
+  background: linear-gradient(rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.8)), url("/images/bg-agmm.jpg") repeat; }
+  #heures-ouverture .hero-body {
+    padding-left: 0;
+    padding-right: 0; }
+  #heures-ouverture .column {
+    justify-content: space-around; }
+  #heures-ouverture table, #heures-ouverture table * {
+    color: whitesmoke;
+    text-align: center;
+    border-color: #3c8b28; }
 
-#heures-ouverture .column {
-  justify-content: space-around; }
+#tarifs {
+  background: url("/images/bg-tarifs.jpg") center/cover; }
+  #tarifs .hero-body {
+    padding-left: 0;
+    padding-right: 0; }
+  #tarifs .column {
+    justify-content: space-around; }
+  #tarifs table, #tarifs table * {
+    color: whitesmoke;
+    text-align: center;
+    border-color: #3c8b28; }
+  @media screen and (max-width: 400px) {
+    #tarifs .column {
+      overflow: auto; } }
 
-#heures-ouverture table, #heures-ouverture table * {
-  background-color: #363636;
-  color: whitesmoke;
-  text-align: center;
-  border-color: #3c8b28; }
+#ligues {
+  background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.9)), url("/images/bg-ligues.jpg") center/cover;
+  color: whitesmoke; }
+  #ligues .content {
+    background: unset; }
 
-#tarifs .hero-body {
-  padding-left: 0;
-  padding-right: 0; }
-
-#tarifs .column {
-  justify-content: space-around; }
-
-#tarifs table, #tarifs table * {
-  background-color: #363636;
-  color: whitesmoke;
-  text-align: center;
-  border-color: #3c8b28; }
-
-#services div.service {
-  padding: 32px 0; }
-
-#services h1 {
-  margin-top: 64px; }
-
-#services img {
-  margin: auto; }
+#services {
+  background: url("/images/bg-services.jpg") fixed center/cover; }
+  #services div.service {
+    padding: 32px 0; }
+  #services h1 {
+    margin-top: 64px; }
+  #services img {
+    margin: auto; }
 
 #contact-golf-virtuel {
   color: white;
-  background-color: rgba(74, 74, 74, 0.75); }
+  background: unset; }
   #contact-golf-virtuel .content {
     background-color: transparent;
     text-align: center; }

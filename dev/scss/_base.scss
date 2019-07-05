@@ -32,8 +32,8 @@
 
 .spaced{
     margin: $gap/8 !important;
-    @media screen and (min-width: $tablet){     
-        margin: $gap/2 !important;
+    @media screen and (min-width: $desktop){     
+        margin: $gap/3 !important;
     }
 }
 

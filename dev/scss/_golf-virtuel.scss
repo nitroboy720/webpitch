@@ -9,7 +9,7 @@
     }
 
 
-    background: url("/images/bg-agmm.jpg") repeat fixed;  
+    background: linear-gradient(rgba(30,30,30, 0.8),rgba(30,30,30, 0.8)), url("/images/bg-agmm.jpg") repeat fixed;  
 }
 
 #golf-virtuel-home{
@@ -25,11 +25,13 @@
         justify-content: space-around;
     }
     table, table *{ 
-        background-color: $dark;
         color: $dark-invert;
         text-align: center;
         border-color: $green;
     }
+
+    //background is exactly same as body background BUT without fixed property
+    background: linear-gradient(rgba(30,30,30, 0.8),rgba(30,30,30, 0.8)), url("/images/bg-agmm.jpg") repeat;
 }
 #tarifs{
     .hero-body{
@@ -39,11 +41,25 @@
     .column{
         justify-content: space-around;
     }
-    table, table *{ 
-        background-color: $dark;
+    table, table *{
         color: $dark-invert;
         text-align: center;
         border-color: $green;
+    }
+    @media screen and (max-width:400px) {
+        .column{
+            overflow: auto;
+        }
+    }
+    background: url("/images/bg-tarifs.jpg") center/cover;
+}
+
+#ligues{
+    background: linear-gradient(rgba(20,20,20,0.9),rgba(20,20,20,0.7),rgba(20,20,20,0.7),rgba(20,20,20,0.7),rgba(20,20,20,0.7),rgba(20,20,20,0.9)),
+     url("/images/bg-ligues.jpg") center/cover;
+    color: $light;
+    .content{
+        background: unset;
     }
 }
 
@@ -57,6 +73,7 @@
     img{
         margin: auto;
     }
+    background: url("/images/bg-services.jpg") fixed center/cover;
 }
 
 #contact-golf-virtuel {
@@ -68,5 +85,5 @@
     a{
         color: inherit;
     }
-    background-color: rgba($grey-dark, 0.75);
+    background: unset;
 }
