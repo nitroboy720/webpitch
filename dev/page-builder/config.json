@@ -12,7 +12,8 @@
         {
             "url":"index.html",
             "headTags": [
-                "<title>Golf Virtuel AGMM</title>",
+                "<title>Golf Virtuel / Académie de Golf AGMM</title>",
+                "<meta name='description' content='Golf intérieur, golf virtuel, cours de golf, etc'>",
                 "</head>"
             ],
             "bodyComponents":[
@@ -24,6 +25,7 @@
             "url":"agmm/index.html",
             "headTags": [
                 "<title>Académie de golf Michel Martin</title>",
+                "<meta name='description' content='Cours de golf, frappe libre à l'interieur, frappe supervisée donnée par des proffesionnels etc'>",
                 "</head>"
             ],
             "bodyComponents":[
@@ -42,7 +44,8 @@
         },{
             "url":"golf-virtuel/index.html",
             "headTags": [
-                "<title>Golf Virtuel</title>",
+                "<title>Golf Virtuel AGMM</title>",
+                "<meta name='description' content='Golf virtuel et bar avec belle ambiance, simulateurs et écrans de la plus grande qualité'>",
                 "</head>"
             ],
             "bodyComponents":[
