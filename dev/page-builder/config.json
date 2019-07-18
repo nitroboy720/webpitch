@@ -2,7 +2,7 @@
     "outputDirectory":"../../public/",
     "componentsDirectory":"../components/",
     "defaultHeadTags": [
-    "<!DOCTYPE HTML>\n<html>\n<head>",
+    "<!DOCTYPE HTML>\n<html lang='fr'>\n<head>",
     "<meta charset='UTF-8'>",
     "<meta name='viewport' content='width=device-width, initial-scale=1'>",
     "<link rel='stylesheet' href='/css/styles.css'>",

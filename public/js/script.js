@@ -10,4 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
         navbarBurger.classList.toggle('is-active');
         menu.classList.toggle('is-active');
     });
+
+
+    const testCheckbox = document.getElementById("test-checkbox");
+    testCheckbox.addEventListener("change",()=>{
+        document.getElementsByTagName("body")[0].classList.toggle("test");
+    })
 });
