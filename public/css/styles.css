@@ -7091,7 +7091,7 @@ label.panel-block {
       overflow: auto; } }
 
 #ligues {
-  background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.65), rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.65), rgba(20, 20, 20, 0.8)), url("/images/bg-ligues.jpg") center/cover;
+  background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.35), rgba(20, 20, 20, 0.35), rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.6)), url("/images/bg-ligues.jpg") center/cover;
   color: whitesmoke; }
   #ligues .content {
     background: unset; }
