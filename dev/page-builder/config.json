@@ -4,7 +4,7 @@
     "defaultHeadTags": [
     "<!DOCTYPE HTML>\n<html lang='fr'>\n<head>",
     "<meta charset='UTF-8'>",
-    "<meta name='viewport' content='width=device-width, initial-scale=1'>",
+    "<meta name='viewport' content='width=device-width, initial-scale=1.0'>",
     "<link rel='stylesheet' href='/css/styles.css'>",
     "<script defer src='/js/script.js'></script>"
     ],
@@ -56,7 +56,7 @@
                 "/golf-virtuel/services.html",
                 "/golf-virtuel/ligues.html",
                 "/golf-virtuel/tarifs.html",
-                "/carte-vip.html",
+                "carte-vip.html",
                 "/golf-virtuel/contact.html",
                 "</body>"
             ]
