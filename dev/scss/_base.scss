@@ -80,3 +80,9 @@
 .container{
     max-width: 100%;
 }
+span.border{
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: $dark;
+}

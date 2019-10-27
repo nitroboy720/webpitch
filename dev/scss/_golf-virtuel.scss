@@ -32,7 +32,7 @@
     }
 
 
-    background: linear-gradient(rgba(30,30,30, 0.8),rgba(30,30,30, 0.8)), url("/images/bg-agmm.jpg") repeat fixed;  
+    background: linear-gradient(rgba(30,30,30, 0.8),rgba(30,30,30, 0.8)), url("/images/bg-agmm.jpg") repeat;  
 }
 
 #golf-virtuel-home{
@@ -53,6 +53,18 @@
         border-color: $green;
     }
 }
+
+#simulateurs{
+    .hero-body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .column{
+        justify-content: center;
+    }
+    background: url("/images/bg-simulateurs.jpg") center/cover fixed;
+}
+
 #tarifs{
     .hero-body{
         padding-left: 0;
@@ -92,10 +104,6 @@
     }
     img{
         margin: auto;
-    }
-    background: url("/images/bg-services.jpg") fixed center/cover;
-    @media screen and (max-width: $tablet) {
-        background: transparent;
     }
 }
 
