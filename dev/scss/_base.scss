@@ -88,15 +88,19 @@ span.border{
 }
 
 .notification {
-    position: fixed;
+    text-align: center;
     color: $light;
     background-color: $green;
     opacity: 0.9;
-    width: fit-content;
-    bottom: 5px;
-    right: 5px;
-    margin-left: 5px;
+    margin: 5px;
     a {
         text-decoration-line: none !important;
     }
+}
+
+.floating{
+    width: fit-content;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }

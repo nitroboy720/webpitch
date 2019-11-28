@@ -6997,16 +6997,19 @@ span.border {
   background-color: #363636; }
 
 .notification {
-  position: fixed;
+  text-align: center;
   color: whitesmoke;
   background-color: #3c8b28;
   opacity: 0.9;
-  width: fit-content;
-  bottom: 5px;
-  right: 5px;
-  margin-left: 5px; }
+  margin: 5px; }
   .notification a {
     text-decoration-line: none !important; }
+
+.floating {
+  width: fit-content;
+  position: fixed;
+  bottom: 0px;
+  right: 0px; }
 
 #index {
   min-height: 100vh;
