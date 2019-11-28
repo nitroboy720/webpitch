@@ -86,3 +86,17 @@ span.border{
     height: 5px;
     background-color: $dark;
 }
+
+.notification {
+    position: fixed;
+    color: $light;
+    background-color: $green;
+    opacity: 0.9;
+    width: fit-content;
+    bottom: 5px;
+    right: 5px;
+    margin-left: 5px;
+    a {
+        text-decoration-line: none !important;
+    }
+}

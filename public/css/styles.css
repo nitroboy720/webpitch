@@ -6996,6 +6996,18 @@ span.border {
   height: 5px;
   background-color: #363636; }
 
+.notification {
+  position: fixed;
+  color: whitesmoke;
+  background-color: #3c8b28;
+  opacity: 0.9;
+  width: fit-content;
+  bottom: 5px;
+  right: 5px;
+  margin-left: 5px; }
+  .notification a {
+    text-decoration-line: none !important; }
+
 #index {
   min-height: 100vh;
   display: flex;

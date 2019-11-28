@@ -11,9 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
         menu.classList.toggle('is-active');
     });
 
-
-    const testCheckbox = document.getElementById("test-checkbox");
-    testCheckbox.addEventListener("change",()=>{
-        document.getElementsByTagName("body")[0].classList.toggle("test");
-    })
+    (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+        $notification = $delete.parentNode;
+        $delete.addEventListener('click', () => {
+          $notification.parentNode.removeChild($notification);
+        });
+      });
 });
