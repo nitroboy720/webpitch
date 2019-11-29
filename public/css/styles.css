@@ -7001,7 +7001,8 @@ span.border {
   color: whitesmoke;
   background-color: #3c8b28;
   opacity: 0.9;
-  margin: 5px; }
+  margin: 5px;
+  box-shadow: 2px 2px 4px 3px #222c; }
   .notification a {
     text-decoration-line: none !important; }
 
